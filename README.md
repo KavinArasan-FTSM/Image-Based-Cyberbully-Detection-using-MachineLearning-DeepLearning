@@ -1,2 +1,32 @@
-# Image-Based-Cyberbully-Detection-using-MachineLearning-DeepLearning
-A Hybrid Machine learning/Deep Learning project for detecting cyberbullying images on social media using EfficientNetB3 for feature extraction, combined with SVM and XGBoost in a stacking ensemble model. The model includes preprocessing with CLAHE, dimensionality reduction using PCA, and deployment via Gradio interface.
+Image-Based Cyberbullying Detection using EfficientNetB3 and Ensemble Learning
+
+This repository contains my **Final Year Project (FYP)** on detecting **cyberbullying in images** using **deep learning and machine learning** approaches.  
+The system leverages **EfficientNetB3** as a feature extractor, followed by an **ensemble classifier (SVM + XGBoost + Ridge Classifier)** to improve detection accuracy.  
+
+---
+
+## 📌 Features
+- 🖼️ **Image preprocessing** with CLAHE to enhance contrast.
+- 🔎 **Feature extraction** using EfficientNetB3 pretrained on ImageNet.
+- 📊 **Dimensionality reduction** using PCA to optimize feature space.
+- ⚖️ **Class balancing** using weighted loss functions.
+- 🤖 **Ensemble learning** with SVM and XGBoost combined via stacking classifier.
+- 📈 **Performance evaluation** with classification reports & accuracy scores.
+- 🎛️ **Interactive Gradio interface** for real-time image testing.
+
+---
+
+## 🏗️ Model Pipeline
+1. **Input Image** → Preprocessing (CLAHE + resizing to 300x300).  
+2. **EfficientNetB3 Feature Extraction** → Converts image to deep feature vector.  
+3. **MinMaxScaler + PCA** → Normalization & dimensionality reduction.  
+4. **Ensemble Classifier** → SVM + XGBoost with Ridge Classifier meta-learner.  
+5. **Prediction** → Outputs `Cyberbullying` or `Not Cyberbullying`.
+
+---
+
+## 📊 Results
+- Achieved **99.17% accuracy** on Dataset 2.  
+- Handles complex cyberbullying patterns in image content.
+
+
