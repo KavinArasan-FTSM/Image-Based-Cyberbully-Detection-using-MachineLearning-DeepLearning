@@ -1,6 +1,6 @@
-Image-Based Cyberbullying Detection using EfficientNetB3 and Ensemble Learning
+# Cyberbullying Image Classifier using EfficientNetB3 + Meta-Ensemble (SVM + XGBoost + Stacking)
 
-This repository contains my **Final Year Project (FYP)** on detecting **cyberbullying in images** using **deep learning and machine learning** approaches.  
+This project predicts **Cyberbullying vs Non-Cyberbullying** in images** using **deep learning and machine learning** approaches.  
 The system leverages **EfficientNetB3** as a feature extractor, followed by an **ensemble classifier (SVM + XGBoost + Ridge Classifier)** to improve detection accuracy.  
 
 ---
@@ -26,7 +26,7 @@ The system leverages **EfficientNetB3** as a feature extractor, followed by an *
 ---
 
 ## 📊 Results
-- Achieved **99.17% accuracy** on Dataset 2.  
+- Achieved **99.17% accuracy** across both datasets.  
 - Handles complex cyberbullying patterns in image content.
 
 
