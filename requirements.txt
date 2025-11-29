@@ -1,0 +1,8 @@
+gradio
+numpy
+tensorflow
+opencv-python
+scikit-learn
+xgboost
+Pillow
+pickle-mixin
