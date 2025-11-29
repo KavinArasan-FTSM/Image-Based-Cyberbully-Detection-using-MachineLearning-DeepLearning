@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environments
+env/
+venv/
+.venv/
+
+# Jupyter & Cache
+.ipynb_checkpoints/
+*.checkpoint
+
+# ML & Model Files
+*.h5
+*.pkl
+*.joblib
+*.sav
+*.model
+*.npy
+*.npz
+
+# Large Files
+*.zip
+*.tar
+*.gz
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Gradio Cache
+gradio_cached_examples/
+
+# Google Colab artifacts
+*.ckpt
+checkpoint/
